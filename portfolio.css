@@ -1,12 +1,12 @@
 @keyframes change {
-    0% {color:goldenrod }
-    25% {color: orange; }
-    50% {color:lightcoral;}
-    75% {color: orchid; }
-    100%{color: goldenrod;}
+    0% {color:black }
+    25% {color: gray; }
+    50% {color:tan}
+    75% {color: brown }
+    100%{color: black;}
 }
 
-h1 {color:skyblue;border: 1px solid burlywood;padding: 1px;
+h1 {color:skyblue;border: 1px solid whitesmoke;padding: 1px;
     animation-name: change;
     animation-duration: 4s;
     animation-delay: 1s;
@@ -21,10 +21,10 @@ h1 {color:skyblue;border: 1px solid burlywood;padding: 1px;
         display: inline-block;
     }
     a:visited {
-        color:orchid;
+        color:black;
     }
     a:hover {
-        color: lightcoral;
+        color: tan;
     }
     a:active {
         color:lightslategray
